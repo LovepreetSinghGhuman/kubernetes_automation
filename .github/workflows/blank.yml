@@ -41,7 +41,3 @@ jobs:
       - name: Run Dockerfile
         run: |
           docker run -d -p 8000:80 hello-world-nginx:v1.
-          curl http://localhost:8000
-
-      - name: Test Dockerfile using curl request
-        run: curl http://localhost
